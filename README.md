@@ -142,15 +142,10 @@ The model achieves strong performance on the validation set:
 The ViT model significantly outperforms baselines, leveraging its transformer architecture to capture complex patterns.
 
 ### Visualizations
-- **Evaluation Metrics**:
-  ![Evaluation Metrics](results/evaluation_metrics.png)
-  - Bar plot showing RMSE, R², Pearson, and Spearman metrics at epoch 10.
+
 - **SHAP Analysis**:
-  - Summary Bar Plot:
-    ![SHAP Summary Bar Plot](results/shap_summary_vit_v3.png)
-    - Highlights character presence and texture quality as positive contributors, artifact density as negative.
   - Beeswarm Plot:
-    ![SHAP Beeswarm Plot](results/shap_beeswarm_vit_v3.png)
+    ![SHAP Beeswarm Plot](shap_beeswarm_vit_v3.png)
     - Shows frame-specific feature impacts on MOS predictions.
 
 ### Error Analysis
