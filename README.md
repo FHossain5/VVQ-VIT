@@ -161,7 +161,7 @@ This dataset supports the ViT-based model described in the accompanying paper, a
 ## Dataset Visuals
 
 ### Attention Map for MOS Prediction
-![ViT Attention Map for MOS Prediction](images/attention_map.png)  
+![ViT Attention Map for MOS Prediction](ViT_Attention_Map_for_MOS_Prediction.png)  
 *Figure 2: Visualizes the ViT model's focus on character and texture regions during MOS prediction, with a heatmap overlay.*
 
 ### Multiview Frames
