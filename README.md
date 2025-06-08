@@ -148,12 +148,18 @@ The ViT model significantly outperforms baselines, leveraging its transformer ar
     ![SHAP Beeswarm Plot](shap_beeswarm_vit_v3.png)
     - Shows frame-specific feature impacts on MOS predictions.
 
+
+
 ### Attention Map for MOS Prediction
 ![ViT Attention Map for MOS Prediction](ViT_Attention_Map_for_MOS_Prediction.png)  
+
 *Figure 2: Visualizes the ViT model's focus on character and texture regions during MOS prediction, with a heatmap overlay.*
 
+
 ### Multiview Frames
-![ViT Attention Map for MOS Prediction](ViT_Attention_Map_Multiview_Spatial_Patterns.png)  
+
+![ViT Attention Map for MOS Prediction](ViT_Attention_Map_Multiview_Spatial_Patterns.png) 
+
 *Figure 3: Displays spatial attention patterns across left, right, back, and front views, emphasizing quality-relevant areas.*
 
 ## Installation
