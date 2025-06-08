@@ -144,9 +144,9 @@ The ViT model significantly outperforms baselines, leveraging its transformer ar
 ### Visualizations
 
 - **SHAP Analysis**:
-  - Beeswarm Plot:
-    ![SHAP Beeswarm Plot](shap_beeswarm_vit_v3.png)
-    - Shows frame-specific feature impacts on MOS predictions.
+  Beeswarm Plot:
+  ![SHAP Beeswarm Plot](shap_beeswarm_vit_v3.png)
+  Figure 1: Shows frame-specific feature impacts on MOS predictions.
 
 
 
