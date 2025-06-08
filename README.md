@@ -147,6 +147,33 @@ The ViT model significantly outperforms baselines, leveraging its transformer ar
   - Beeswarm Plot:
     ![SHAP Beeswarm Plot](shap_beeswarm_vit_v3.png)
     - Shows frame-specific feature impacts on MOS predictions.
+   
+- # VVC Video Compression Dataset
+
+This repository hosts the **VVC Video Compression Dataset**, a custom dataset designed for perceptual quality assessment of multiview volumetric video (VV) sequences using Vision Transformers (ViT). The dataset and associated resources support research in immersive media, AR/VR, and telepresence applications.
+
+## Overview
+
+The dataset comprises **704 multiview video sequences**, generated from the 8i Voxelized Full Bodies (VFBv2) collection using Blender. It features four characters—Loot, Longdress, Red and Black, and Soldier—captured from four viewpoints (left, right, back, front). Each sequence includes 10 frames at 224×224 resolution, compressed using Versatile Video Coding (VVC/H.266) with a quantization parameter (QP) of 25. Mean Opinion Scores (MOS) were collected following ITU-R BT.500-13 standards from 136 participants.
+
+This dataset supports the ViT-based model described in the accompanying paper, achieving a validation R² of 0.9556, RMSE of 0.2168, and Pearson correlation of 0.9816.
+
+## Dataset Visuals
+
+### Attention Map for MOS Prediction
+![ViT Attention Map for MOS Prediction](images/attention_map.png)  
+*Figure 2: Visualizes the ViT model's focus on character and texture regions during MOS prediction, with a heatmap overlay.*
+
+### Multiview Frames
+![ViT Attention Map for MOS Prediction](ViT_Attention_Map_Multiview_Spatial_Patterns.png)  
+*Figure 3: Displays spatial attention patterns across left, right, back, and front views, emphasizing quality-relevant areas.*
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/FHossain5/VVC-Video-Compression-Dataset.git
+   cd VVC-Video-Compression-Dataset
 
 ### Error Analysis
 - **Residuals**: Mean ≈ 0, std ≈ 0.2168, near-normal distribution, minimal outliers.
